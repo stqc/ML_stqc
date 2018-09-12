@@ -1,2 +1,2 @@
 # ML_stqc
-My Machine Learning project(BCA Sem 3)
+My Machine Learning project 2018
