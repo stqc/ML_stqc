@@ -18,7 +18,7 @@ def knn(data,predict,k=3):
     vote_result=Counter(votes).most_common(1)[0][0]
     return vote_result
 
-df = pd.read_csv(r'/home/prateek/Desktop/breast-cancer-wisconsin.csv',header=None)
+df = pd.read_csv(r'/home/user_name/Desktop/breast-cancer-wisconsin.csv',header=None)
 df.replace('?',np.nan,inplace=True)
 df=df.dropna()
 df=df.iloc[:,1:]
